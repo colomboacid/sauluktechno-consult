@@ -1,0 +1,21 @@
+.icon {
+    &-delivery::before {
+        background-image: url(../img/antenna.svg);
+        background-size: 65.32px 70px;
+     }
+
+     &-clock::before {
+        background-image: url(../img/clock.svg);
+        background-size: 66.96px 70px;
+    }
+
+    &-comp::before {
+        background-image: url(../img/comp.svg);
+        background-size: 70px 53.69px;
+    }
+
+    &-astronaut::before {
+        background-image: url(../img/astronaut.svg);
+        background-size: 54.83px 60.66px;
+    }
+}

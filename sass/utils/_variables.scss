@@ -1,0 +1,76 @@
+
+$primery-text-color:#757575;
+$title-text-color:#212121;
+$accent-text-color:#2196F3;
+$primary-bg-color:#ffffff;
+$primary-footer-color:#2F303A;
+$primery-footer-text-color:rgba(255, 255, 255, 0.6);
+$primery-button-color:#F5F4FA;
+ 
+
+
+html {
+    box-sizing: border-box;
+ }
+
+ *,
+ *::before
+ *::after {
+    box-sizing: inherit;}
+ p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+ }
+ ul {
+    margin: 0;
+    padding-left: 0;
+ }
+ img {
+    display: block;
+    }
+
+ button {
+    cursor: pointer;
+ }
+ body {
+    background-color: $primary-bg-color ;
+    color: $primery-text-color;
+    font-family: 'Roboto', sans-serif;
+    }
+
+     /* Universals classes */
+
+    .container {
+        width: 1200px;
+        padding: 0px 15px;
+        margin: 0 auto;
+        
+    }
+    .general-footer-container {
+        display: flex;
+        width: 1200px;
+        padding: 0px 15px;
+        margin: 0 auto;
+    }
+    .footer-container {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-container:not(:last-child) {
+        margin-right: 70px;
+    
+    }
+    
+    .list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .link {
+        position: relative;
+    
+        text-decoration: none;
+        padding-top: avto;
+        
+    }

@@ -1,0 +1,31 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.header-border {
+border-bottom: 1px solid #ECECEC;
+}
+.logo {
+    color: $title-text-color;
+    padding: 25px 0px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    &:hover {color:$accent-text-color;
+
+    }
+    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1 );
+
+    &__web {
+        color:$accent-text-color;
+    }
+}

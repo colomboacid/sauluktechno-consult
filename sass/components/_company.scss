@@ -1,0 +1,45 @@
+.company {
+    &__list {
+        display: flex;
+        list-style: none;
+        }
+       
+    &__items:not(:last-child) {
+        margin-right: 30px;
+     }
+
+    &__link  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        color: #AFB1B8;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+    
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1 );
+
+        &:hover,
+        &:focus {
+            border-color: $accent-text-color;
+        }
+        }
+
+}
+
+    .company-icon {
+        width: 106px;
+        height: 60px;
+        fill: currentColor;
+
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1 );
+    }
+    .company__link:hover .company-icon,
+    .company__link:focus .company-icon {
+        fill: $accent-text-color;
+    }

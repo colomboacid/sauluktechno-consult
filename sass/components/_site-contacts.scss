@@ -1,0 +1,49 @@
+
+
+.site-tel {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+
+    & .link {
+        display: block;
+        padding: 32px 0px;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: $primery-text-color;
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1 );
+
+        &:hover,
+        &:focus { 
+            fill: $accent-text-color;
+            color: $accent-text-color;
+        }
+    }
+
+    &__icon {
+        fill: currentColor;
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        background-position: center;
+    }
+
+    & .item + .item {
+        margin-left: 40px;
+    }
+}
+.site-tell__icon {
+    fill: currentColor;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-position: center;
+}
+
